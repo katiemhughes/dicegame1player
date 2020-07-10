@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header id="title"><h1>Dice Game</h1></header>
+
+    <div class="gamepanel">
+        <div class=" item player-title"><h2 class="item">PLAYER 1</h2></div>
+        <div class="roll-container"><button class="item" id="roll-btn">Roll the Dice </button></div>
+        <div class="reset-container"><button class="item" id="reset-btn">Reset Game </button></div>
+        <div class="item current-points-box">
+            <p>CURRENT POINTS</p>
+            <hr>
+            <div id="totalPoints">0</div>
+        </div>
+        
+        <div class="item dice-container">
+            <div class="dice-images">
+                <img  src="imgs/dice1.png" id="diceImgDOM" class="no-display" alt='dices'>    
+            </div> 
+        </div>  
+        <div class="item win-lose-msg">
+            <div id="display-lose">
+                </div>
+            <div id="display-win">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
